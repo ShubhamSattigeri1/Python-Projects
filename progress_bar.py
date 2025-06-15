@@ -1,5 +1,5 @@
 '''
-****** This is my Python Code...mazhi mehnat aahe he *****
+****** This is Python Code...*****
 import time
 import sys
 from tqdm import tqdm
@@ -49,23 +49,10 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''    
+'''
+
 import streamlit as st
 import time
-
-st.markdown("""
-<style>
-    .stAppHeader {
-        display: none;
-    }
-    /* Reduce font size for form submit buttons and ensure they stay inline */
-    .stButton > button {
-        font-size: 12px !important;
-        padding: 0.5rem 0.8rem !important;
-        white-space: nowrap !important;
-    }
-</style>
-""", unsafe_allow_html=True)
 
 class Project2:
     def __init__(self, task=None, finished=None):
@@ -172,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
